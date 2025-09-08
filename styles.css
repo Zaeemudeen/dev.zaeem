@@ -12,11 +12,11 @@ body {
     background-color: black;
     width: 80%;
     height: 50px;
-    justify-self: center;
     border-radius: 0 0 20px 20px;
     border-width: 0 1px 1px 1px;
     border-style: solid;
     border-color: brown;
+    margin: 0 auto;
 }
 
 #nav-list{
@@ -44,9 +44,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    justify-self: center;
     align-items: center;
-    margin-top: 5px;
+    margin: 5px auto;
     border: 1px solid brown;
     border-radius: 20px;
     background-color: black;
@@ -86,13 +85,12 @@ hr {
 footer {
     display: flex;
     flex-direction: column;
-    justify-self: center;
     justify-content: center;
     align-items: center;
     background-color: black;
     width: 80%;
     height: 50px;
-    margin-top: 5px;
+    margin: 0 auto;
     border-radius:20px 20px 0 0;
     border-width: 1px 1px 0 1px;
     border-style: solid;
